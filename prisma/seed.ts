@@ -1,6 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 
-const prisma = new PrismaClient();
+const prisma = new PrismaClient(); // Use new instance for CLI scripts
 
 async function main() {
   console.log('🌱 Starting database seeding...');

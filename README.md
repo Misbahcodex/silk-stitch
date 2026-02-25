@@ -154,26 +154,29 @@ ecommerce-website/
    npx prisma generate
    ```
 
-### Option 2: PostgreSQL (Production)
+### Option 2: PostgreSQL / Neon (Production)
 
-1. **Update schema** to use PostgreSQL:
-   ```prisma
-   datasource db {
-     provider = "postgresql"
-     url      = env("DATABASE_URL")
-   }
-   ```
+The project is configured for **Neon PostgreSQL**. Set these environment variables:
 
-2. **Set environment variables**:
-   ```env
-   DATABASE_URL="postgresql://username:password@localhost:5432/silkstitch"
-   ```
+1. **DATABASE_URL** - Pooled connection (from Neon dashboard, use the connection string with `-pooler` in host)
+2. **DIRECT_URL** - Direct connection (same as above but remove `-pooler` from host for migrations)
 
-3. **Deploy to production**:
+3. **Push schema to database** (run once before first deploy):
    ```bash
-   npx prisma migrate deploy
-   npx prisma generate
+   npx prisma db push
+   npm run seed        # Optional: add sample products
+   npm run admin-seed  # Optional: create admin user (admin@silkstitch.com / admin123)
    ```
+
+## 🚀 Vercel Deployment
+
+1. **Push your code** to GitHub and import the project in Vercel
+2. **Add environment variables** in Vercel Project Settings → Environment Variables:
+   - `DATABASE_URL` - Your Neon pooled connection string
+   - `DIRECT_URL` - Your Neon direct connection string  
+   - `NEXTAUTH_SECRET` - Generate with `openssl rand -base64 32`
+   - `NEXTAUTH_URL` - Your production URL (e.g. `https://your-app.vercel.app`)
+3. **Deploy** - Vercel will run `prisma generate && next build` automatically
 
 ## 🔐 Authentication Setup
 
