@@ -35,9 +35,9 @@ async function main() {
       shippingInfo: "Free shipping on orders over $100",
       returnPolicy: "30-day return policy",
       images: [
-        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&h=700&fit=crop",
-        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=600&h=700&fit=crop",
-        "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=700&fit=crop"
+        "https://picsum.photos/seed/blazer1/600/700",
+        "https://picsum.photos/seed/blazer2/600/700",
+        "https://picsum.photos/seed/blazer3/600/700"
       ]
     },
     {
@@ -63,8 +63,8 @@ async function main() {
       shippingInfo: "Free shipping on orders over $100",
       returnPolicy: "30-day return policy",
       images: [
-        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=600&h=700&fit=crop",
-        "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=600&h=700&fit=crop"
+        "https://picsum.photos/seed/pants1/600/700",
+        "https://picsum.photos/seed/pants2/600/700"
       ]
     },
     {
@@ -90,8 +90,8 @@ async function main() {
       shippingInfo: "Free shipping on orders over $100",
       returnPolicy: "30-day return policy",
       images: [
-        "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=700&fit=crop",
-        "https://images.unsplash.com/photo-1564257631407-3c5275e3a6e4?w=600&h=700&fit=crop"
+        "https://picsum.photos/seed/crop1/600/700",
+        "https://picsum.photos/seed/crop2/600/700"
       ]
     },
     {
@@ -117,8 +117,8 @@ async function main() {
       shippingInfo: "Free shipping on orders over $100",
       returnPolicy: "30-day return policy",
       images: [
-        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&h=700&fit=crop",
-        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=700&fit=crop"
+        "https://picsum.photos/seed/dress1/600/700",
+        "https://picsum.photos/seed/dress2/600/700"
       ]
     },
     {
@@ -144,7 +144,7 @@ async function main() {
       shippingInfo: "Free shipping on orders over $100",
       returnPolicy: "30-day return policy",
       images: [
-        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&h=700&fit=crop"
+        "https://picsum.photos/seed/tee1/600/700"
       ]
     },
     {
@@ -170,7 +170,7 @@ async function main() {
       shippingInfo: "Free shipping on orders over $100",
       returnPolicy: "30-day return policy",
       images: [
-        "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=600&h=700&fit=crop"
+        "https://picsum.photos/seed/denim1/600/700"
       ]
     },
     {
@@ -196,7 +196,7 @@ async function main() {
       shippingInfo: "Free shipping on orders over $100",
       returnPolicy: "30-day return policy",
       images: [
-        "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=600&h=700&fit=crop"
+        "https://picsum.photos/seed/skirt1/600/700"
       ]
     },
     {
@@ -222,7 +222,7 @@ async function main() {
       shippingInfo: "Free shipping on orders over $100",
       returnPolicy: "30-day return policy",
       images: [
-        "https://images.unsplash.com/photo-1564257631407-3c5275e3a6e4?w=600&h=700&fit=crop"
+        "https://picsum.photos/seed/blouse1/600/700"
       ]
     },
     {
@@ -248,7 +248,7 @@ async function main() {
       shippingInfo: "Free shipping on orders over $100",
       returnPolicy: "30-day return policy",
       images: [
-        "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&h=700&fit=crop"
+        "https://picsum.photos/seed/cargo1/600/700"
       ]
     },
     {
@@ -274,7 +274,7 @@ async function main() {
       shippingInfo: "Free shipping on orders over $100",
       returnPolicy: "30-day return policy",
       images: [
-        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&h=700&fit=crop"
+        "https://picsum.photos/seed/sweater1/600/700"
       ]
     },
     {
@@ -300,7 +300,7 @@ async function main() {
       shippingInfo: "Free shipping on orders over $100",
       returnPolicy: "30-day return policy",
       images: [
-        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=700&fit=crop"
+        "https://picsum.photos/seed/maxi1/600/700"
       ]
     },
     {
@@ -326,7 +326,7 @@ async function main() {
       shippingInfo: "Free shipping on orders over $100",
       returnPolicy: "30-day return policy",
       images: [
-        "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&h=700&fit=crop"
+        "https://picsum.photos/seed/bomber1/600/700"
       ]
     }
   ];

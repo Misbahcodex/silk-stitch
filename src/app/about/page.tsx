@@ -52,7 +52,7 @@ export default function About() {
           </div>
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&h=700&fit=crop"
+              src="https://picsum.photos/seed/story1/600/700"
               alt="Our Story"
               width={600}
               height={700}
@@ -139,7 +139,7 @@ export default function About() {
             <div className="text-center">
               <div className="relative mb-6">
                 <Image
-                  src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face"
+                  src="https://picsum.photos/seed/team1/300/300"
                   alt="Founder"
                   width={300}
                   height={300}
@@ -158,7 +158,7 @@ export default function About() {
             <div className="text-center">
               <div className="relative mb-6">
                 <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
+                  src="https://picsum.photos/seed/team2/300/300"
                   alt="Head Designer"
                   width={300}
                   height={300}
@@ -177,7 +177,7 @@ export default function About() {
             <div className="text-center">
               <div className="relative mb-6">
                 <Image
-                  src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face"
+                  src="https://picsum.photos/seed/team3/300/300"
                   alt="Operations Manager"
                   width={300}
                   height={300}

@@ -30,7 +30,7 @@ const CollectionsPage = () => {
       id: 'summer-essentials',
       name: 'Summer Essentials',
       description: 'Light, breathable pieces perfect for warm weather. From flowy dresses to lightweight tops.',
-      image: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&h=400&fit=crop',
+      image: 'https://picsum.photos/seed/summer1/600/400',
       itemCount: 45,
       category: 'seasonal',
       isNew: true
@@ -39,7 +39,7 @@ const CollectionsPage = () => {
       id: 'korean-street-style',
       name: 'Korean Street Style',
       description: 'Trendy, oversized silhouettes and bold patterns inspired by Seoul fashion districts.',
-      image: 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&h=400&fit=crop',
+      image: 'https://picsum.photos/seed/street1/600/400',
       itemCount: 78,
       category: 'style',
       isFeatured: true
@@ -48,7 +48,7 @@ const CollectionsPage = () => {
       id: 'minimalist-elegance',
       name: 'Minimalist Elegance',
       description: 'Clean lines, neutral tones, and sophisticated cuts for the modern woman.',
-      image: 'https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=400&fit=crop',
+      image: 'https://picsum.photos/seed/minimal1/600/400',
       itemCount: 32,
       category: 'style'
     },
@@ -56,7 +56,7 @@ const CollectionsPage = () => {
       id: 'evening-glamour',
       name: 'Evening Glamour',
       description: 'Stunning dresses and sophisticated pieces for special occasions and nights out.',
-      image: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&h=400&fit=crop',
+      image: 'https://picsum.photos/seed/evening1/600/400',
       itemCount: 28,
       category: 'occasion'
     },
@@ -64,7 +64,7 @@ const CollectionsPage = () => {
       id: 'casual-comfort',
       name: 'Casual Comfort',
       description: 'Effortlessly stylish everyday wear that combines comfort with contemporary fashion.',
-      image: 'https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=600&h=400&fit=crop',
+      image: 'https://picsum.photos/seed/casual1/600/400',
       itemCount: 56,
       category: 'style'
     },
@@ -72,7 +72,7 @@ const CollectionsPage = () => {
       id: 'workplace-chic',
       name: 'Workplace Chic',
       description: 'Professional attire that maintains style and comfort throughout the workday.',
-      image: 'https://images.unsplash.com/photo-1564257631407-3c5275e3a6e4?w=600&h=400&fit=crop',
+      image: 'https://picsum.photos/seed/work1/600/400',
       itemCount: 41,
       category: 'occasion'
     },
@@ -80,7 +80,7 @@ const CollectionsPage = () => {
       id: 'sustainable-fashion',
       name: 'Sustainable Fashion',
       description: 'Eco-friendly pieces made from sustainable materials without compromising on style.',
-      image: 'https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=600&h=400&fit=crop',
+      image: 'https://picsum.photos/seed/sustain1/600/400',
       itemCount: 23,
       category: 'lifestyle',
       isNew: true
@@ -89,7 +89,7 @@ const CollectionsPage = () => {
       id: 'accessories-collection',
       name: 'Accessories Collection',
       description: 'Complete your look with our curated selection of bags, jewelry, and statement pieces.',
-      image: 'https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=600&h=400&fit=crop',
+      image: 'https://picsum.photos/seed/accessories1/600/400',
       itemCount: 67,
       category: 'accessories'
     }
